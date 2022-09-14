@@ -1,0 +1,18 @@
+@use 'variables'; 
+
+
+footer
+{
+    margin-top: 24px;
+
+    .attribution  
+    { 
+        font-size: 12px; 
+        text-align: center; 
+    }
+        
+    .attribution a 
+    { 
+        color: variables.$Footer; 
+    }
+}

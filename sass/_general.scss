@@ -1,0 +1,24 @@
+@use 'variables'; 
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    font-family: variables.$Font;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(36deg, variables.$Dark-desaturated-blue, variables.$Very-dark-blue);
+    min-height: 100vh;
+}
+
+img
+{
+    display: block;
+}

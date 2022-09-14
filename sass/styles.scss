@@ -1,0 +1,22 @@
+@use 'variables';
+@use 'footer';
+@use 'general';
+@use 'content'; 
+
+.main 
+{
+    &__container
+    {
+        width: 1080px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        /* Media Query */
+        @media (max-width: 1080px)
+        {
+            width: 375px;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+}
